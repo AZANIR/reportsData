@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Сторінка з кнопками</title>
+</head>
+<body>
+    <h1>Виберіть звіт:</h1>
+
+    <button id="button1">LQ report</button>
+    <button id="button2">Rentzila_main report</button>
+    <button id="button3">Rentzila_tenders report</button>
+    <button id="button4">Rentzila_units report</button>
+
+    <script>
+        // Додамо обробники подій на кожну кнопку
+        document.getElementById("button1").addEventListener("click", function () {
+            window.location.href = "LQ/index.html";
+        });
+
+        document.getElementById("button2").addEventListener("click", function () {
+            window.location.href = "Rentzila_main/index.html";
+        });
+
+        document.getElementById("button3").addEventListener("click", function () {
+            window.location.href = "Rentzila_tenders/index.html";
+        });
+
+        document.getElementById("button4").addEventListener("click", function () {
+            window.location.href = "Rentzila_units/index.html";
+        });
+    </script>
+</body>
+</html>
