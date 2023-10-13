@@ -5,11 +5,17 @@
 </head>
 <body>
     <h1>Виберіть звіт:</h1>
-
+<div>
     <button id="button1">LQ report</button>
     <button id="button2">Rentzila_main report</button>
     <button id="button3">Rentzila_tenders report</button>
     <button id="button4">Rentzila_units report</button>
+    </div>
+    <div>
+        <button id="button5">Rentzila_main2 report</button>
+        <button id="button6">Rentzila_tenders2 report</button>
+        <button id="button7">Rentzila_units2 report</button>
+        </div>
 
     <script>
         // Додамо обробники подій на кожну кнопку
@@ -27,6 +33,18 @@
 
         document.getElementById("button4").addEventListener("click", function () {
             window.location.href = "Rentzila_units/index.html";
+        });
+
+        document.getElementById("button5").addEventListener("click", function () {
+            window.location.href = "Rentzila_main2/index.html";
+        });
+
+        document.getElementById("button6").addEventListener("click", function () {
+            window.location.href = "Rentzila_tenders2/index.html";
+        });
+
+        document.getElementById("button7").addEventListener("click", function () {
+            window.location.href = "Rentzila_units2/index.html";
         });
     </script>
 </body>
